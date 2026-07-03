@@ -304,6 +304,94 @@ Used to determine the type of a variable or object.
 - Apply operators effectively while solving JavaScript problems.
 - Build a strong JavaScript foundation for Playwright Automation Testing.
 
+## ✅ Day 4 - Conditional Statements
+
+**File:** `conditionalStatements.js`
+
+### Concepts Covered
+
+- if
+- if...else
+- if...else if
+- Nested if
+- switch
+
+### Practice Tasks
+
+- ✅ Positive or Negative Number
+- ✅ Grade Calculator
+- ✅ Leap Year
+- ✅ Login Validation
+- ✅ Day of the Week using switch
+
+### Key Takeaways
+
+- Execute code based on conditions.
+- Handle multiple decision paths.
+- Use switch for cleaner conditional logic.
+
+## ✅ Day 5 - Loops
+
+**File:** `loops.js`
+
+### Concepts Covered
+
+- for loop
+- while loop
+- do...while loop
+
+### Practice Tasks
+
+- ✅ Print numbers from 1–10
+- ✅ Print even numbers
+- ✅ Print odd numbers
+- ✅ Multiplication table
+- ✅ Sum of numbers from 1 to 100
+- ✅ ATM PIN validation using do...while
+
+### Key Takeaways
+
+- Understand loop execution flow.
+- Know when to use for, while, and do...while.
+- Solve common looping problems.
+
+## ✅ Day 6 - Functions
+
+**File:** `functions.js`
+
+### Overview
+
+Functions are reusable blocks of code that perform a specific task. They improve code reusability, readability, and maintainability.
+
+### Concepts Covered
+
+- Function Declaration
+- Function Call
+- Function Parameters
+- Return Functions
+- Void Functions
+- Anonymous Functions
+- Arrow Functions (ES6)
+
+### Practice Tasks
+
+- ✅ Function without parameters
+- ✅ Function with parameters
+- ✅ Function with return value
+- ✅ Employee Salary Calculation
+- ✅ Anonymous Function
+- ✅ Arrow Function
+- ✅ Return values
+- ✅ Function arguments
+
+### Key Takeaways
+
+- Understand function declaration and invocation.
+- Learn the difference between void and return functions.
+- Pass values using parameters and arguments.
+- Write anonymous and arrow functions.
+- Improve code reusability using functions.
+
 # 📈 Learning Progress
 
 | Day | Topic | File | Status |
@@ -311,9 +399,9 @@ Used to determine the type of a variable or object.
 | 1 | Variables | `variables.js` | ✅ Completed |
 | 2 | Data Types | `datatypes.js` | ✅ Completed |
 | 3 | Operators | `operators.js` | ✅ Completed |
-| 4 | Conditional Statements | `conditions.js` | ⏳ Upcoming |
-| 5 | Loops | `loops.js` | ⏳ Upcoming |
-| 6 | Functions | `functions.js` | ⏳ Upcoming |
+| 4 | Conditional Statements | `conditionalStatements.js` | ✅ Completed  |
+| 5 | Loops | `loops.js` | ✅ Completed  |
+| 6 | Functions | `functions.js` & `arrowFunction.js` | ✅ Completed  |
 | 7 | Arrays | `arrays.js` | ⏳ Upcoming |
 | 8 | Objects | `objects.js` | ⏳ Upcoming |
 | 9 | OOP Concepts | `oops.js` | ⏳ Upcoming |
@@ -343,4 +431,8 @@ Build a strong JavaScript foundation and progressively move to:
 
 ---
 
-⭐ This repository is updated regularly as I continue my learning journey in JavaScript and Playwright Automation.
+## ⭐ About This Repository
+
+This repository documents my JavaScript learning journey while preparing for Playwright Automation Testing. Each topic includes theory, hands-on coding exercises, and practice problems to strengthen my programming fundamentals before moving to TypeScript and advanced automation framework development.
+
+I will continue updating this repository as I progress through JavaScript, TypeScript, and Playwright.
