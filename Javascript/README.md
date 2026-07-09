@@ -392,6 +392,111 @@ Functions are reusable blocks of code that perform a specific task. They improve
 - Write anonymous and arrow functions.
 - Improve code reusability using functions.
 
+---
+
+## ✅ Day 7 to Day 10- OOP Concepts
+
+**File:** `oops.js`
+
+### Overview
+
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code into reusable classes and objects. It improves code reusability, readability, and maintainability. These concepts are widely used while building Playwright Automation Frameworks using the Page Object Model (POM).
+
+### Concepts Covered
+
+#### 1. Class
+
+A class is a blueprint used to create objects. It consists of properties, constructors, and methods.
+
+#### 2. Object
+
+An object is an instance of a class that stores its own data and provides access to the class methods.
+
+#### 3. Constructor
+
+A constructor is a special method that is automatically called whenever an object is created. It is used to initialize object properties.
+
+- Default Constructor
+- Parameterized Constructor
+
+#### 4. Inheritance
+
+Inheritance allows a child class to inherit properties and methods from a parent class, promoting code reusability.
+
+**Topics Practiced**
+
+- Single Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Hybrid Inheritance (Concept)
+- `extends` keyword
+- `super()` keyword
+
+#### 5. Polymorphism
+
+Polymorphism allows the same method to perform different behaviors depending on the object.
+
+**Topics Practiced**
+
+- Method Overriding (Runtime Polymorphism)
+- Method Overloading Concept in JavaScript
+- Understanding JavaScript's limitation on Method Overloading
+
+#### 6. Abstraction
+
+Abstraction hides the implementation details and exposes only the necessary functionality.
+
+**Topics Practiced**
+
+- Private methods using `#`
+- Car Engine Example
+- Login Process Example
+
+#### 7. Encapsulation
+
+Encapsulation hides the implementation details and exposes only the required methods.
+
+**Playwright Example**
+
+- Store locators and page actions inside `LoginPage.js`.
+- Create an object of the `LoginPage` class in the test file.
+- Call `loginPage.login()` instead of writing login steps repeatedly.
+- Improve code reusability and maintainability using the Page Object Model (POM).
+
+---
+
+### Practice Tasks
+
+- ✅ Hotel Class
+- ✅ Student Class
+- ✅ Bank Account
+- ✅ Employee Salary Increment
+- ✅ Single Inheritance
+- ✅ Multilevel Inheritance
+- ✅ Hierarchical Inheritance
+- ✅ Hybrid Inheritance (Concept)
+- ✅ Super Keyword
+- ✅ Payment Method Overriding
+- ✅ BasePage Method Overriding
+- ✅ Car Abstraction
+- ✅ Login Process Abstraction
+- ✅ Playwright POM Encapsulation
+
+---
+
+### Key Takeaways
+
+- Understand the fundamentals of Object-Oriented Programming.
+- Create reusable code using classes and objects.
+- Initialize object data using constructors.
+- Reuse code effectively through inheritance.
+- Override methods using polymorphism.
+- Hide implementation details using abstraction.
+- Encapsulate locators and page actions using the Page Object Model (POM).
+- Build scalable and maintainable Playwright Automation Frameworks using OOP principles.
+
+---
+
 # 📈 Learning Progress
 
 | Day | Topic | File | Status |
@@ -399,13 +504,17 @@ Functions are reusable blocks of code that perform a specific task. They improve
 | 1 | Variables | `variables.js` | ✅ Completed |
 | 2 | Data Types | `datatypes.js` | ✅ Completed |
 | 3 | Operators | `operators.js` | ✅ Completed |
-| 4 | Conditional Statements | `conditionalStatements.js` | ✅ Completed  |
-| 5 | Loops | `loops.js` | ✅ Completed  |
-| 6 | Functions | `functions.js` & `arrowFunction.js` | ✅ Completed  |
-| 7 | Arrays | `arrays.js` | ⏳ Upcoming |
-| 8 | Objects | `objects.js` | ⏳ Upcoming |
-| 9 | OOP Concepts | `oops.js` | ⏳ Upcoming |
-| 10 | ES6 Features | `es6.js` | ⏳ Upcoming |
+| 4 | Conditional Statements | `conditionalStatements.js` | ✅ Completed |
+| 5 | Loops | `loops.js` | ✅ Completed |
+| 6 | Functions | `functions.js` & `arrowFunction.js` | ✅ Completed |
+| 7 | OOP Concepts | `oops.js` | ✅ Completed |
+| 8 | Inheritance | `inheritance.js` & `hybridInheritance.js` | ✅ Completed |
+| 9 | Polymorphism | `polymorphism.js` | ✅ Completed |
+| 10 | Abstraction | `abstraction.js` | ✅ Completed |
+| 11 | Encapsulation | `encapsulation.js` | ✅ Completed |
+| 12 | Arrays | `arrays.js` | ⏳ Upcoming |
+| 13 | Objects | `objects.js` | ⏳ Upcoming |
+| 14 | ES6 Features | `es6.js` | ⏳ Upcoming |
 
 ---
 
