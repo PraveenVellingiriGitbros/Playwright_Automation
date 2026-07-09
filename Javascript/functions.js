@@ -48,7 +48,7 @@ function Salary(basic,hra,allowance)
 {
     return(basic+hra+allowance)
 }
-let netsalary = Salary(10000,3000,500)
+let netsalary = Salary(10000,3000,500) // return value stored in netsalary.
 let bonus = 15000
 //Additionaly bonus added
 let empsalary = netsalary + bonus
@@ -64,7 +64,7 @@ function mobile(processor, model)
 let d = mobile("MacOs","Apple")
 console.log(d)
 
-//anonymous Function: An anonymous function is a function without a name.
+//Anonymous Function: An anonymous function is a function without a name.
 //Instead of giving the function a name, you store it in a variable or pass it directly as an argument.
 //Syntax:
 // function () { code }
