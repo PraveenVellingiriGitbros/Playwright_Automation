@@ -497,6 +497,100 @@ Encapsulation hides the implementation details and exposes only the required met
 
 ---
 
+## ✅ Day 11 to Day 16 - Arrays
+
+**File:** `arrays.js`
+
+### Overview
+
+Arrays are one of the most commonly used data structures in JavaScript. They allow multiple values to be stored in a single variable and provide powerful built-in methods for accessing, modifying, searching, and transforming data.
+
+Understanding arrays is essential for Playwright Automation because test data, web elements, API responses, and dynamic collections are frequently handled using arrays.
+
+---
+
+### Concepts Covered
+
+#### 1. Array Fundamentals
+
+* Array Declaration
+* Accessing Array Elements
+* Modifying Array Elements
+* `length` Property
+
+#### 2. Adding & Removing Elements
+
+* `push()`
+* `pop()`
+* `shift()`
+* `unshift()`
+
+#### 3. Extracting & Modifying Arrays
+
+* `slice()`
+* `splice()`
+
+#### 4. Searching Elements
+
+* `includes()`
+* `indexOf()`
+* `find()`
+
+#### 5. Transforming & Filtering Data
+
+* `filter()`
+* `map()`
+
+#### 6. Array Iteration
+
+* `for...of`
+
+#### 7. Validation Methods
+
+* `every()`
+* `some()`
+
+#### 8. Modern JavaScript Features
+
+* Array Destructuring
+* Spread Operator (`...`)
+
+---
+
+### Practice Tasks
+
+* ✅ Declare arrays using different approaches.
+* ✅ Access and modify array elements.
+* ✅ Find the length of an array.
+* ✅ Add and remove elements using array methods.
+* ✅ Extract and modify array data using `slice()` and `splice()`.
+* ✅ Search for elements using `includes()`, `indexOf()`, and `find()`.
+* ✅ Filter data using `filter()`.
+* ✅ Transform array values using `map()`.
+* ✅ Iterate through arrays using `for...of`.
+* ✅ Validate array elements using `every()` and `some()`.
+* ✅ Extract values using array destructuring.
+* ✅ Copy, merge, and expand arrays using the spread operator.
+
+---
+
+### Key Takeaways
+
+* Understand different ways to create JavaScript arrays.
+* Access, update, and manage array elements efficiently.
+* Differentiate between `slice()` and `splice()`.
+* Use searching methods to locate array elements.
+* Transform array data using `map()`.
+* Filter array data using `filter()`.
+* Iterate through arrays using `for...of`.
+* Validate data using `every()` and `some()`.
+* Simplify code using array destructuring.
+* Copy and merge arrays using the spread operator.
+* Build a strong JavaScript foundation for handling collections in Playwright Automation.
+
+---
+
+
 # 📈 Learning Progress
 
 | Day | Topic | File | Status |
@@ -512,7 +606,7 @@ Encapsulation hides the implementation details and exposes only the required met
 | 9 | Polymorphism | `polymorphism.js` | ✅ Completed |
 | 10 | Abstraction | `abstraction.js` | ✅ Completed |
 | 11 | Encapsulation | `encapsulation.js` | ✅ Completed |
-| 12 | Arrays | `arrays.js` | ⏳ Upcoming |
+| 12 | Arrays | `arrays.js` | ✅ Completed  |
 | 13 | Objects | `objects.js` | ⏳ Upcoming |
 | 14 | ES6 Features | `es6.js` | ⏳ Upcoming |
 
