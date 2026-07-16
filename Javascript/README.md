@@ -590,25 +590,139 @@ Understanding arrays is essential for Playwright Automation because test data, w
 
 ---
 
+I reviewed your README. It is **well structured** and professional. The only thing missing is the **Objects** section. Below is a section that matches the style and formatting of your existing README.
+
+You can paste it **after the Arrays section**.
+
+---
+
+## ✅ Day 17 to Day 20 - Objects
+
+**File:** `Objects.js`
+
+### Overview
+
+Objects are one of the most fundamental data structures in JavaScript. They store data as **key-value pairs**, making it easy to represent real-world entities such as employees, users, products, and test data.
+
+Understanding objects is essential for Playwright Automation because locators, API responses, configuration files, test data, and the Page Object Model (POM) are all based on JavaScript objects.
+
+---
+
+### Concepts Covered
+
+#### 1. Object Fundamentals
+
+* Object Literal
+* Properties (Key-Value Pairs)
+* Nested Objects
+* Arrays Inside Objects
+
+#### 2. Accessing Object Properties
+
+* Dot Notation (`object.property`)
+* Bracket Notation (`object["property"]`)
+* Dynamic Property Access
+
+#### 3. Modifying Objects
+
+* Adding Properties
+* Updating Properties
+* Deleting Properties
+
+#### 4. Object Methods
+
+* Functions Inside Objects
+* Method Syntax
+* `this` Keyword
+
+#### 5. Built-in Object Methods
+
+* `Object.keys()`
+* `Object.values()`
+* `Object.entries()`
+* `Object.assign()` *(Learned)*
+* `Object.freeze()` *(Learned)*
+* `Object.seal()` *(Learned)*
+
+#### 6. Iterating Objects
+
+* `for...in`
+
+#### 7. Modern JavaScript Features
+
+* Object Destructuring
+* Renaming Variables During Destructuring
+* Spread Operator (`...`)
+
+#### 8. Array of Objects
+
+* Creating an Array of Objects
+* Accessing Objects Inside an Array
+* Accessing Object Properties
+* Iterating Using `for...of`
+* Searching Using `find()`
+* Filtering Using `filter()`
+* Transforming Data Using `map()`
+
+---
+
+### Practice Tasks
+
+* ✅ Create objects using object literals.
+* ✅ Access object properties using dot and bracket notation.
+* ✅ Access nested objects and arrays.
+* ✅ Add, update, and delete object properties.
+* ✅ Create methods inside objects.
+* ✅ Use the `this` keyword inside object methods.
+* ✅ Retrieve object keys, values, and entries.
+* ✅ Iterate through objects using `for...in`.
+* ✅ Extract properties using object destructuring.
+* ✅ Rename variables during destructuring.
+* ✅ Copy and extend objects using the spread operator.
+* ✅ Create and work with arrays of objects.
+* ✅ Search objects using `find()`.
+* ✅ Filter objects using `filter()`.
+* ✅ Transform object data using `map()`.
+
+---
+
+### Key Takeaways
+
+* Understand how JavaScript objects store related data.
+* Access object properties using dot and bracket notation.
+* Modify objects by adding, updating, and deleting properties.
+* Create reusable behaviors using object methods.
+* Use the `this` keyword to reference the current object.
+* Retrieve object information using `Object.keys()`, `Object.values()`, and `Object.entries()`.
+* Iterate through object properties using `for...in`.
+* Simplify code using object destructuring.
+* Copy and extend objects using the spread operator.
+* Work efficiently with arrays of objects.
+* Search objects using `find()`.
+* Filter collections using `filter()`.
+* Transform object data using `map()`.
+* Build a strong JavaScript foundation for Playwright Automation and the Page Object Model (POM).
+
 
 # 📈 Learning Progress
 
-| Day | Topic | File | Status |
-|-----|-------|------|--------|
-| 1 | Variables | `variables.js` | ✅ Completed |
-| 2 | Data Types | `datatypes.js` | ✅ Completed |
-| 3 | Operators | `operators.js` | ✅ Completed |
-| 4 | Conditional Statements | `conditionalStatements.js` | ✅ Completed |
-| 5 | Loops | `loops.js` | ✅ Completed |
-| 6 | Functions | `functions.js` & `arrowFunction.js` | ✅ Completed |
-| 7 | OOP Concepts | `oops.js` | ✅ Completed |
-| 8 | Inheritance | `inheritance.js` & `hybridInheritance.js` | ✅ Completed |
-| 9 | Polymorphism | `polymorphism.js` | ✅ Completed |
-| 10 | Abstraction | `abstraction.js` | ✅ Completed |
-| 11 | Encapsulation | `encapsulation.js` | ✅ Completed |
-| 12 | Arrays | `arrays.js` | ✅ Completed  |
-| 13 | Objects | `objects.js` | ⏳ Upcoming |
-| 14 | ES6 Features | `es6.js` | ⏳ Upcoming |
+| Topic | File | Status |
+|--------|------|--------|
+| Variables | `variables.js` | ✅ Completed |
+| Data Types | `datatypes.js` | ✅ Completed |
+| Operators | `operators.js` | ✅ Completed |
+| Conditional Statements | `conditionalStatements.js` | ✅ Completed |
+| Loops | `loops.js` | ✅ Completed |
+| Functions | `functions.js` & `arrowFunction.js` | ✅ Completed |
+| OOP Concepts | `oops.js` | ✅ Completed |
+| Inheritance | `inheritance.js` | ✅ Completed |
+| Hybrid Inheritance | `hybridInheritance.js` | ✅ Completed |
+| Polymorphism | `polymorphism.js` | ✅ Completed |
+| Abstraction | `abstraction.js` | ✅ Completed |
+| Encapsulation | `encapsulation.js` | ✅ Completed |
+| Arrays | `arrays.js` | ✅ Completed |
+| Objects | `objects.js` | ✅ Completed |
+| ES6 Features | `es6.js` | ⏳ Upcoming |
 
 ---
 

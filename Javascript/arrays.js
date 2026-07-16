@@ -386,7 +386,7 @@ console.log("---------")
 //16. spread operator
 
 //Ex 1: Expand Values
-console.log("----Expand-----")
+console.log("----Expand-----") // It expands one array into individual values and passes each one as a separate argument to console.log()
 let arr10 = ["Iphone", "OPPO", "VIVO" ] 
 console.log(...arr10)
 console.log("---------")
