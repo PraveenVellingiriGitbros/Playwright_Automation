@@ -703,6 +703,104 @@ Understanding objects is essential for Playwright Automation because locators, A
 * Transform object data using `map()`.
 * Build a strong JavaScript foundation for Playwright Automation and the Page Object Model (POM).
 
+---
+
+## ✅ Day 21 to Day 23 - Asynchronous JavaScript
+
+**File:** `Async.js` , `Callback.js` , `Promise.js` , `Asyncawait.js`
+
+### Overview
+
+Asynchronous programming allows JavaScript to execute time-consuming operations without blocking the execution of the remaining code. It is one of the most important concepts in modern JavaScript and is heavily used in Playwright Automation, where browser interactions, API calls, and file operations are asynchronous.
+
+---
+
+### Concepts Covered
+
+#### 1. Synchronous Programming
+
+* Sequential execution
+* Blocking execution
+* Execution flow
+
+#### 2. Asynchronous Programming
+
+* Non-blocking execution
+* Event Loop (Introduction)
+* Web APIs
+* `setTimeout()`
+* `setInterval()`
+* `fetch()` (Introduction)
+
+#### 3. Callback Functions
+
+* Callback Function
+* Synchronous Callback
+* Asynchronous Callback
+* Callback Syntax
+* Callback Hell
+
+#### 4. Promises
+
+* Promise Object
+* Promise States
+    * Pending
+    * Fulfilled (Resolved)
+    * Rejected
+* `resolve()`
+* `reject()`
+* `.then()`
+* `.catch()`
+* Creating Promises
+* Returning Promises from Functions
+
+#### 5. Async & Await
+
+* `async` Function
+* `await` Keyword
+* `try...catch`
+* Error Handling
+* Async/Await Syntax
+* Async/Await with Promises
+
+#### 6. Playwright Connection
+
+* Why Playwright uses `await`
+* Browser actions return Promises
+* `page.goto()`
+* `page.click()`
+* `page.fill()`
+* `page.locator()`
+
+---
+
+### Practice Tasks
+
+* ✅ Demonstrate synchronous execution.
+* ✅ Demonstrate asynchronous execution using `setTimeout()`.
+* ✅ Create callback functions.
+* ✅ Simulate a Pizza Ordering example using callbacks.
+* ✅ Understand Callback Hell.
+* ✅ Create Promises using `new Promise()`.
+* ✅ Implement Login Validation using Promises.
+* ✅ Implement ATM Withdrawal using Promises.
+* ✅ Convert Promise-based code to Async/Await.
+* ✅ Handle errors using `try...catch`.
+* ✅ Understand how Playwright uses Promises and Async/Await.
+
+---
+
+### Key Takeaways
+
+* Understand the difference between synchronous and asynchronous programming.
+* Learn how JavaScript performs non-blocking operations.
+* Understand callback functions and Callback Hell.
+* Create and consume Promises using `resolve()`, `reject()`, `.then()`, and `.catch()`.
+* Write cleaner asynchronous code using `async` and `await`.
+* Handle asynchronous errors using `try...catch`.
+* Understand that `async/await` is built on top of Promises.
+* Understand why Playwright methods are used with `await`.
+* Build a strong JavaScript foundation for Playwright Automation.
 
 # 📈 Learning Progress
 
@@ -722,6 +820,7 @@ Understanding objects is essential for Playwright Automation because locators, A
 | Encapsulation | `encapsulation.js` | ✅ Completed |
 | Arrays | `arrays.js` | ✅ Completed |
 | Objects | `objects.js` | ✅ Completed |
+| Asynchronous JavaScript (Callback, Promise, Async/Await) | `Async.js` , `Callback.js` , `Promise.js` , `Asyncawait.js` | ✅ Completed |
 | ES6 Features | `es6.js` | ⏳ Upcoming |
 
 ---
