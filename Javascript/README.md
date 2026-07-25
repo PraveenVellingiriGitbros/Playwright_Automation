@@ -802,6 +802,142 @@ Asynchronous programming allows JavaScript to execute time-consuming operations 
 * Understand why Playwright methods are used with `await`.
 * Build a strong JavaScript foundation for Playwright Automation.
 
+---
+
+## ✅ Day 24 to Day 26 - ES6 Features
+
+**File:** `es6feature.js`
+
+### Overview
+
+ECMAScript 6 (ES6), released in 2015, introduced many modern JavaScript features that make code cleaner, shorter, and easier to maintain. These features are heavily used in TypeScript and Playwright Automation Frameworks.
+
+Understanding ES6 is essential because Playwright code relies on arrow functions, classes, modules, destructuring, promises, template literals, and other modern JavaScript features.
+
+---
+
+### Concepts Covered
+
+#### 1. Variable Declarations
+
+* `let`
+* `const`
+* Block Scope
+* Reassignment
+* Constant Variables
+
+#### 2. Arrow Functions
+
+* Function Expression
+* Arrow Function Syntax
+* Parameters
+* Implicit Return
+* Anonymous Functions
+
+#### 3. Template Literals
+
+* String Interpolation
+* Multi-line Strings
+* `${}` Expression
+
+#### 4. Default Parameters
+
+* Default Function Arguments
+* Overriding Default Values
+
+#### 5. Rest & Spread Operators
+
+* Rest Parameters (`...`)
+* Spread Operator (`...`)
+* Array Copy
+* Array Merge
+* Function Arguments
+
+#### 6. Destructuring
+
+* Array Destructuring
+* Object Destructuring
+* Rest Element
+
+#### 7. Modules
+
+* Named Export
+* Default Export
+* Import Statement
+* Export Statement
+
+#### 8. Classes
+
+* ES6 Class
+* Constructor
+* Object Creation
+* Methods
+* `this` Keyword
+
+#### 9. Promises
+
+* Promise Object
+* Pending
+* Fulfilled
+* Rejected
+* `.then()`
+* `.catch()`
+
+#### 10. Modern Loops
+
+* `for...of`
+* `for...in`
+
+#### 11. Optional Chaining
+
+* Optional Chaining (`?.`)
+* Safe Property Access
+
+#### 12. Nullish Coalescing
+
+* Nullish Coalescing (`??`)
+* Default Values
+* `null` vs `undefined`
+
+---
+
+### Practice Tasks
+
+* ✅ Declare variables using `let` and `const`.
+* ✅ Convert normal functions into arrow functions.
+* ✅ Create dynamic strings using template literals.
+* ✅ Use default parameter values in functions.
+* ✅ Copy and merge arrays using the spread operator.
+* ✅ Collect multiple function arguments using the rest operator.
+* ✅ Extract values using array and object destructuring.
+* ✅ Create and import JavaScript modules.
+* ✅ Create classes and instantiate objects.
+* ✅ Create and consume promises.
+* ✅ Iterate arrays using `for...of`.
+* ✅ Iterate object properties using `for...in`.
+* ✅ Safely access nested properties using optional chaining.
+* ✅ Provide default values using the nullish coalescing operator.
+
+---
+
+### Key Takeaways
+
+* Understand the modern features introduced in ES6.
+* Write cleaner and more readable JavaScript code.
+* Reduce boilerplate code using arrow functions and template literals.
+* Use default parameters to simplify function definitions.
+* Copy, merge, and expand arrays and objects using the spread operator.
+* Collect variable-length arguments using the rest operator.
+* Extract object and array values using destructuring.
+* Organize code using ES6 modules.
+* Create reusable code using classes.
+* Handle asynchronous operations using promises.
+* Iterate efficiently using `for...of` and `for...in`.
+* Avoid runtime errors using optional chaining.
+* Assign default values safely using the nullish coalescing operator.
+* Build a strong ES6 foundation for TypeScript and Playwright Automation.
+
+
 # 📈 Learning Progress
 
 | Topic | File | Status |
@@ -821,7 +957,7 @@ Asynchronous programming allows JavaScript to execute time-consuming operations 
 | Arrays | `arrays.js` | ✅ Completed |
 | Objects | `objects.js` | ✅ Completed |
 | Asynchronous JavaScript (Callback, Promise, Async/Await) | `Async.js` , `Callback.js` , `Promise.js` , `Asyncawait.js` | ✅ Completed |
-| ES6 Features | `es6.js` | ⏳ Upcoming |
+| ES6 Features | `ES6Features.js` |  ✅ Completed |
 
 ---
 

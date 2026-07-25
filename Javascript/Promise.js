@@ -78,3 +78,17 @@ function atmWitdrawal(balance , amount)
 atmWitdrawal(7000, 6000)
     .then(result => console.log(result))
     .catch(fail => console.log(fail))
+
+/* 
+Interview Answer:
+
+Question: Why was async/await introduced when Promises already existed?
+
+Answer:
+
+async/await was introduced to make asynchronous code easier to read and maintain. 
+It doesn't replace Promises. it is built on top of them. 
+Every await waits for a Promise to settle, 
+but the code looks more like normal synchronous code, 
+making complex asynchronous workflows easier to understand.
+*/
