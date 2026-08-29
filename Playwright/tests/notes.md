@@ -51,3 +51,11 @@ Quick Recap:
 | `npx playwright codegen`                  | Generate test code         |
 | `npx playwright test --trace=on`          | Record execution trace     |
 */
+
+<!-- 
+npm install
+npm list @playwright/test
+npx playwright install
+Command + shift + p = Developer: Reload Window - enter
+npx playwright test --list
+ -->

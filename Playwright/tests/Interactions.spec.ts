@@ -12,10 +12,9 @@ import {test} from '@playwright/test';
     8. press()
     9. Keyboard Shortcuts. || selecttext()
     10. Drag & Drop
-    11. selectoption()
-    12. fileupload()
-    13. hover() 
-    14. scroll() 
+    11. fileupload()
+    12. hover() 
+    13. scroll()
 
     | Interaction | Use for                             |
     | ----------- | ----------------------------------- |
@@ -129,46 +128,6 @@ test('Interaction using dragAndDrop', async({page})=>{
     await page.waitForTimeout(3000);
 })
 
-    /* 
-        1. Selectby visibletext - We should use label property.
-        2. Selectby value
-        3. Selectby index
-        4. MultipleSelect
-    */
-
-test.describe('Interaction using selectoption' , ()=>{
-
-    test('selectoption using visibletext', async({page})=>{
-        await page.goto('https://testautomationpractice.blogspot.com/');
-        await page.locator('#country').selectOption({label: 'Germany'});
-        await page.waitForTimeout(3000);
-    })
-    
-    test('selectoption using value', async({page})=>{
-
-        await page.goto('https://testautomationpractice.blogspot.com/');
-        await page.locator('#country').selectOption('france');
-        await page.waitForTimeout(3000);
-    })
-
-    test('selectoption using index', async({page})=>{
-
-        await page.goto('https://testautomationpractice.blogspot.com/');
-        await page.getByLabel('Country:').selectOption({index : 5});
-        await page.waitForTimeout(3000);
-    })
-
-    test('MultipleSelect', async({page})=>{
-        await page.goto('https://testautomationpractice.blogspot.com/');
-        await page.getByLabel('Colors:').selectOption([{label: 'Green'}, {index:3}, {value:'blue'}]);
-        
-        // If only values code like below.
-        // await page.getByLabel('Colors:').selectOption(['red','blue']);
-        await page.waitForTimeout(3000);
-    })
-
-})
-
 //.  /Users/daniel/Documents/Playwright Recordings
 
 test.describe('Interaction using fileupload', async()=>{
@@ -219,9 +178,6 @@ test.describe('Interaction using scroll', async()=>{
         await page.waitForTimeout(5000);
     })
 })
-
-
-
 
 
 
