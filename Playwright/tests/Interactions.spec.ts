@@ -134,15 +134,15 @@ test.describe('Interaction using fileupload', async()=>{
 
     test('Single file upload' , async({page})=>{
         await page.goto('https://testautomationpractice.blogspot.com/');
-        await page.locator('#singleFileInput').setInputFiles('/Users/daniel/Documents/Playwright Recordings/Praveen_Vellingiri_Resume.pdf');
+        await page.locator('#singleFileInput').setInputFiles('/Users/praveen/Documents/Praveen/Learnings/Playwright Recordings/Praveen_Vellingiri_Resume.pdf');
         await page.getByText('Upload Single File').click();
         await page.waitForTimeout(3000);
     })
     
-    test('MultipleFileUpload', async({page})=>{
+    test.only('MultipleFileUpload', async({page})=>{
 
         await page.goto('https://testautomationpractice.blogspot.com/');
-        await page.locator('#multipleFilesInput').setInputFiles(['/Users/daniel/Documents/Playwright Recordings/Praveen_Vellingiri_Resume.pdf','/Users/daniel/Documents/Playwright Recordings/Praveen_Vellingiri_Resume.pdf','/Users/daniel/Documents/Playwright Recordings/Praveen_Vellingiri_Resume.pdf']);
+        await page.locator('#multipleFilesInput').setInputFiles(['/Users/praveen/Documents/Praveen/Learnings/Playwright Recordings/Praveen_Vellingiri_Resume.pdf','/Users/praveen/Documents/Praveen/Learnings/Playwright Recordings/Praveen_Vellingiri_Resume.pdf','/Users/praveen/Documents/Praveen/Learnings/Playwright Recordings/Praveen_Vellingiri_Resume.pdf']);
         await page.getByText('Upload Multiple Files').click();
         await page.waitForTimeout(3000);
 
