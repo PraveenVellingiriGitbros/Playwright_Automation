@@ -32,8 +32,10 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     actionTimeout: 10000,
-    trace: 'on-first-retry',
-    headless: false
+    headless: false,
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+    trace: 'retain-on-failure'
   },
 
   /* Configure projects for major browsers */
@@ -48,13 +50,13 @@ projects: [
   //   use: { ...devices['Desktop Firefox'] },
   // },
 
-  {
-    name: 'webkit',
-    use: {
-      ...devices['Desktop Safari'],
-      headless: false,
-    },
-  },
+  // {
+  //   name: 'webkit',
+  //   use: {
+  //     ...devices['Desktop Safari'],
+  //     headless: false,
+  //   },
+  // },
 
   /* Test against mobile viewports. */
   // {
