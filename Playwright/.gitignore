@@ -1,8 +1,20 @@
 
-# Playwright
+
+# Node modules
 node_modules/
+
+# Playwright
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Screenshots / videos / traces generated during tests
+screenshots/
+videos/
+traces/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,5 +1,4 @@
 import { defineConfig, devices } from '@playwright/test';
-import { TIMEOUT } from 'node:dns';
 
 /**
  * Read environment variables from file.
@@ -14,7 +13,6 @@ import { TIMEOUT } from 'node:dns';
  */
 export default defineConfig({
   testDir: './tests',
-  //grep: /@regression/,
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -35,8 +33,8 @@ export default defineConfig({
     actionTimeout: 10000,
     headless: false,
     screenshot: 'only-on-failure',
-    //video: 'retain-on-failure',
-    //trace: 'retain-on-failure'
+    video: 'retain-on-failure',
+    trace: 'retain-on-failure'
   },
 
   /* Configure projects for major browsers */

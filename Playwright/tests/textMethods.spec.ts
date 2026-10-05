@@ -14,7 +14,8 @@
         * Use map(str=>str.trim()) method to eleminates extra spaces and line brakes.
     5. all() Method: Will use this method while working with tables.
         * is used to get all elements matching a Locator as an array of individual Locator objects.
-
+    6. inputValue - retrieve the text that we entered and helps to verify it. Ex: Given by user.
+    7. getAttribute - retrieve the text from HTML element and helps to verify it. Ex: Dom elements value.
 
     | Method              | What it does                                      | Return           |
     | ------------------- | ------------------------------------------------- | ---------------- |
@@ -27,8 +28,7 @@
     | `nth(i)`            | Gets one matching element by index                | `Locator`        |
 
 */
-
-import {test, type Locator} from '@playwright/test'
+import {test, type Locator, expect} from '@playwright/test'
 
 test('innerText', async({page})=>{
 
@@ -116,7 +116,6 @@ test('allTextContents', async({page})=>{
         console.log(ptext.trim());
         
     }
-
 })
 
 test('allMethod innerText', async({page})=>{
@@ -167,3 +166,32 @@ test('allMethod textContent', async({page})=>{
     | Then iterate with `for...of`   | `for (const product of productList)` |
 
 */
+
+test('inputvalue', async({page})=>{
+
+    await page.goto('https://testautomationpractice.blogspot.com/');
+    await page.locator('#name').fill('Praveen');
+    const name = await page.locator('#name').inputValue();
+    expect(name).toBe('Praveen')
+
+    /* 
+        When would you use it?
+        Example: Verify entered data.
+            This is useful for:
+            Text boxes
+            Password fields
+            Search boxes
+            Textareas
+            Select/input controls where inputValue() is supported.
+    */
+})
+
+test('GetAttribute',async({page})=>{
+
+    await page.goto('https://testautomationpractice.blogspot.com/');
+    const placeholder = await page.getByPlaceholder('Enter Name').getAttribute('placeholder');
+    expect(placeholder).toBe('Enter Name'); 
+
+    //is used to retrieve the value of a specific HTML attribute from an element.
+    //getAttribute() retrieves the value of the specified attribute from a web element.
+})
