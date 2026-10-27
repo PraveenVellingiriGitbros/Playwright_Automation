@@ -57,3 +57,18 @@ S → Scalability
 4. Pages - Create a class file (LoginPage) and add locators and actions.
 5. tests - Create a test file and import - (test from playwright/test , LoginPage from pages, envConfig from config folders).
 6. Create a object to call locators and methods from LoginPage class.
+
+-------------------------------------------------------------------------
+Testing https://www.saucedemo.com/ application.
+
+a. Login Page validation.
+b. Product Page validation.
+    1. validate page title.
+    2. validate allproducts, description and price and first item.
+    3. validate add all item to cart.
+    4. validate specific item to cart.
+    5. validate dropdown - Map, replace, filter, sort.
+       * map- is used to handle price to replace $(Currency symbol).
+       * filter- is used in locator to idenfity dropdown values.
+       * sort- is used to sort the products and price is a to z, z to a, low to high, high to low.
+
