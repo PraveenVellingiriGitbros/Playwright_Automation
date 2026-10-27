@@ -71,4 +71,5 @@ b. Product Page validation.
        * map- is used to handle price to replace $(Currency symbol).
        * filter- is used in locator to idenfity dropdown values.
        * sort- is used to sort the products and price is a to z, z to a, low to high, high to low.
+    6. validate logout.
 

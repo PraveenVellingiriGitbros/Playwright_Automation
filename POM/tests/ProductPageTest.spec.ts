@@ -44,7 +44,7 @@ test.describe('Product Page Validation', ()=>{
         await page.waitForTimeout(3000);
     })
 
-    test.only('Test to add Specific Item', async({page})=>{
+    test('Test to add Specific Item', async({page})=>{
         //To test with multiple test data we can use array - Test Management.
         //Created test data folder and stored test data in array. Imported in this test.
         //File name: product.ts
@@ -90,6 +90,16 @@ test.describe('Product Page Validation', ()=>{
         expect(price).toEqual(priceSorted);
         console.log(`Sorted Prices High to Low: ${priceSorted}`);
         await page.waitForTimeout(3000);
+    })
+
+    test('validate about and logout from Product page', async({page})=>{
+
+        await productPage.productMenuClick();
+        await expect(productPage.aboutPageText).toBeVisible();;
+        await page.goBack();
+        await productPage.productPageMenu.click();
+        await productPage.logout();
+
     })
 
 })

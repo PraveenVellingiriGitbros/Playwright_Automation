@@ -1,5 +1,6 @@
 import {Page, Locator} from '@playwright/test'
 import { error } from 'node:console'
+import { link } from 'node:fs'
 import { loadEnvFile } from 'node:process'
 
 export class ProductPage
@@ -19,6 +20,8 @@ export class ProductPage
     readonly filterNameLtoH: Locator
     readonly filterNameHtoL: Locator
     readonly productPageMenu: Locator
+    readonly aboutLink: Locator
+    readonly aboutPageText: Locator
     readonly productPageLogout: Locator
 
     constructor(page: Page)
@@ -37,6 +40,8 @@ export class ProductPage
         this.filterNameLtoH = page.locator('.product_sort_container').filter({hasText: 'Price (low to high)'});
         this.filterNameHtoL = page.locator('.product_sort_container').filter({hasText: 'Price (high to low)'});
         this.productPageMenu = page.locator('#react-burger-menu-btn');
+        this.aboutLink = page.getByRole('link',{name: 'About'});
+        this.aboutPageText = page.getByText('Verify AI-generated code at the pace');
         this.productPageLogout= page.locator('#logout_sidebar_link');
     }
 
@@ -131,6 +136,7 @@ export class ProductPage
     async productMenuClick(): Promise<void>
     {
         await this.productPageMenu.click();
+        await this.aboutLink.click();
     }
 
     async logout(): Promise<void>
